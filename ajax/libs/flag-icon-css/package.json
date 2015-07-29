@@ -1,0 +1,25 @@
+{
+  "name": "flag-icon-css",
+  "version": "0.7.1",
+  "author": "Panayiotis Lipiridis <lipiridis@gmail.com>",
+  "filename": "css/flag-icon.min.css",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/lipis/flag-icon-css"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/lipis/flag-icon-css.git",
+    "basePath": "",
+    "files": [
+      "css/*",
+      "flags/**/*"
+    ]
+  }
+}

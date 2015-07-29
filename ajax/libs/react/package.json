@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "filename": "react.min.js",
+  "version": "0.13.3",
+  "description": "React is a JavaScript library for building user interfaces.",
+  "keywords": [
+    "react",
+    "jsx",
+    "transformer",
+    "view"
+  ],
+  "homepage": "http://facebook.github.io/react",
+  "bugs": "https://github.com/facebook/react/issues",
+  "npmName": "react",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
+  "namespace": "React"
+}

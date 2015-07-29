@@ -1,0 +1,15 @@
+{
+  "name": "danialfarid-angular-file-upload",
+  "npmName": "ng-file-upload",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js",
+        "*.swf"
+      ]
+    }
+  ],
+  "version": "5.0.9",
+  "filename": "ng-file-upload-shim.min.js"
+}

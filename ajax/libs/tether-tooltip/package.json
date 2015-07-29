@@ -1,0 +1,21 @@
+{
+  "name": "tether-tooltip",
+  "filename": "tooltip.min.js",
+  "version": "0.2.6",
+  "description": "CSS tooltips built on Tether",
+  "authors": [
+    "Adam Schwartz <adam.flynn.schwartz@gmail.com>",
+    "Zack Bloom <zackbloom@gmail.com>"
+  ],
+  "license": "MIT",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/HubSpot/tooltip.git",
+    "basePath": "",
+    "files": [
+      "css/*.css",
+      "tooltip.js",
+      "tooltip.min.js"
+    ]
+  }
+}

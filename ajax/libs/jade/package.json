@@ -1,0 +1,36 @@
+{
+  "name": "jade",
+  "version": "1.11.0",
+  "filename": "jade.min.js",
+  "description": "A clean, whitespace-sensitive template language for writing HTML",
+  "homepage": "http://jade-lang.com/",
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "jade"
+  ],
+  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "maintainers": [
+    "Forbes Lindesay <forbes@lindesay.co.uk>",
+    "Matthias Le Brun <mlbli@me.com>",
+    "Joshua Appelman <joshua@jbna.nl>",
+    "Jonathan Ong <jonathanrichardong@gmail.com>",
+    "Alex Kocharin <alex@kocharin.ru>",
+    "Hemanth <hemanth.hm@gmail.com>",
+    "Timothy Gu <timothygu99@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jadejs/jade"
+  },
+  "namespace": "jade",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/jadejs/jade.git",
+    "basePath": "",
+    "files": [
+      "jade.js",
+      "runtime.js"
+    ]
+  }
+}

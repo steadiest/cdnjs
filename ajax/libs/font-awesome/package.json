@@ -1,0 +1,21 @@
+{
+  "name": "font-awesome",
+  "filename": "css/font-awesome.min.css",
+  "version": "4.3.0",
+  "description": "Font Awesome",
+  "homepage": "http://fontawesome.io/",
+  "keywords": [
+    "css",
+    "font",
+    "icons"
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/FortAwesome/Font-Awesome.git",
+    "basePath": "",
+    "files": [
+      "css/*",
+      "fonts/*"
+    ]
+  }
+}

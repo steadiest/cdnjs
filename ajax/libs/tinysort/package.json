@@ -1,0 +1,32 @@
+{
+  "name": "tinysort",
+  "filename": "tinysort.min.js",
+  "version": "2.2.2",
+  "description": "TinySort",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sjeiti/TinySort.git"
+  },
+  "keywords": [
+    "sort",
+    "list",
+    "table",
+    "dom",
+    "html"
+  ],
+  "author": "Ron Valstar (http://www.sjeiti.com/)",
+  "license": "MIT/GPL",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/Sjeiti/TinySort.git",
+    "basePath": "dist",
+    "files": [
+      "tinysort.js",
+      "tinysort.min.js",
+      "tinysort.charorder.js",
+      "tinysort.charorder.min.js"
+    ]
+  }
+}

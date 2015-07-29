@@ -1,0 +1,34 @@
+{
+  "name": "webfont",
+  "filename": "webfontloader.js",
+  "version": "1.6.5",
+  "description": "The WebFont Loader is a JavaScript library that gives you more control over font loading than the Google Font API provides.",
+  "homepage": "http://code.google.com/apis/webfonts/docs/webfont_loader.html",
+  "keywords": [
+    "webfont",
+    "ui",
+    "font"
+  ],
+  "maintainers": [
+    {
+      "name": "Google"
+    },
+    {
+      "name": "Typekit"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/typekit/webfontloader.git"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/typekit/webfontloader.git",
+    "basePath": "",
+    "files": [
+      "webfontloader.js"
+    ]
+  }
+}

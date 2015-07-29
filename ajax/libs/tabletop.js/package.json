@@ -1,0 +1,32 @@
+{
+  "name": "tabletop.js",
+  "filename": "tabletop.min.js",
+  "homepage": "http://github.com/jsoma/tabletop",
+  "description": "Tabletop.js takes a Google Spreadsheet and makes it easily accessible through JavaScript.",
+  "keywords": [
+    "database",
+    "storage"
+  ],
+  "version": "1.4.2",
+  "maintainers": [
+    {
+      "name": "Jonathan Soma",
+      "email": "jonathan.soma@gmail.com",
+      "web": "http://twitter.com/dangerscarf"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsoma/tabletop.git"
+  },
+  "npmName": "tabletop",
+  "npmFileMap": [
+    {
+      "basePath": "/src/",
+      "files": [
+        "tabletop.js",
+        "backbone.tabletopSync.js"
+      ]
+    }
+  ]
+}

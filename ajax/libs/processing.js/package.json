@@ -1,0 +1,35 @@
+{
+  "name": "processing.js",
+  "filename": "processing.min.js",
+  "version": "1.4.9",
+  "description": "A port of the Processing visualization language to JavaScript.",
+  "homepage": "http://processingjs.org",
+  "keywords": [
+    "html5",
+    "canvas"
+  ],
+  "maintainers": [
+    {
+      "name": "Processing.js team",
+      "twitter": "Processingjs",
+      "web": "http://processingjs.org"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/processing-js/processing-js"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/processing-js/processing-js/issues"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/processing-js/processing-js.git",
+    "files": [
+      "processing.min.js",
+      "processing.js"
+    ]
+  }
+}

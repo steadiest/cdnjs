@@ -1,0 +1,31 @@
+{
+  "name": "waypoints",
+  "filename": "noframework.waypoints.min.js",
+  "version": "3.1.1",
+  "description": "Easily execute a function when you scroll to an element",
+  "homepage": "http://imakewebthings.com/waypoints/",
+  "keywords": [
+    "scroll",
+    "scrolling"
+  ],
+  "maintainers": [
+    {
+      "name": "Caleb Troughton",
+      "web": "http://imakewebthings.com/"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/imakewebthings/waypoints"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/imakewebthings/waypoints.git",
+    "basePath": "lib",
+    "files": [
+      "**/*"
+    ]
+  }
+}

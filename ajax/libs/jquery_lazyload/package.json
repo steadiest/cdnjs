@@ -1,0 +1,21 @@
+{
+  "name": "jquery_lazyload",
+  "filename": "jquery.lazyload.min.js",
+  "version": "1.9.5",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuupola/jquery_lazyload.git"
+  },
+  "author": "Mika Tuupola <tuupola@appelsiini.net>",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/tuupola/jquery_lazyload.git",
+    "basePath": "",
+    "files": [
+      "jquery.lazyload.*"
+    ]
+  }
+}

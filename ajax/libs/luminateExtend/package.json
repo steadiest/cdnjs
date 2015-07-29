@@ -1,0 +1,31 @@
+{
+  "name": "luminateExtend",
+  "filename": "luminateExtend.min.js",
+  "version": "1.7.1",
+  "description": "A JavaScript library for use with the Luminate Online product suite and API.",
+  "homepage": "https://github.com/noahcooper/luminateExtend",
+  "keywords": [
+    "non-profit",
+    "blackbaud"
+  ],
+  "maintainers": [
+    {
+      "name": "noahcooper"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/noahcooper/luminateExtend"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/noahcooper/luminateExtend.git",
+    "basePath": "",
+    "files": [
+      "luminateExtend.js",
+      "luminateExtend.min.js"
+    ]
+  }
+}

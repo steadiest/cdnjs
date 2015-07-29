@@ -1,0 +1,34 @@
+{
+  "name": "qwery",
+  "description": "blazing fast CSS3 query selector engine",
+  "version": "4.0.0",
+  "homepage": "https://github.com/ded/qwery",
+  "author": "Dustin Diaz <dustin@dustindiaz.com> (http://dustindiaz.com)",
+  "contributors": [
+    "Jacob Thornton <> (https://github.com/fat)",
+    "Rod Vagg <> (https://github.com/rvagg)",
+    "Andrew McCollum <> (https://github.com/amccollum)"
+  ],
+  "filename": "qwery.min.js",
+  "keywords": [
+    "ender",
+    "query",
+    "css",
+    "selector engine"
+  ],
+  "ender": "./src/ender.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ded/qwery.git"
+  },
+  "npmName": "qwery",
+  "npmFileMap": [
+    {
+      "basePath": "/",
+      "files": [
+        "qwery.js",
+        "qwery.min.js"
+      ]
+    }
+  ]
+}

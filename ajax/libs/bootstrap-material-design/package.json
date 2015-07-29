@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap-material-design",
+  "title": "bootstrap-material",
+  "filename": "js/material.min.js",
+  "version": "0.3.0",
+  "description": "Material Design for Bootstrap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FezVrasta/bootstrap-material-design.git"
+  },
+  "author": "Federico Zivolo",
+  "license": "https://github.com/FezVrasta/bootstrap-material-design/blob/master/LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/FezVrasta/bootstrap-material-design/issues"
+  },
+  "homepage": "https://github.com/FezVrasta/bootstrap-material-design",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/FezVrasta/bootstrap-material-design.git",
+    "basePath": "dist",
+    "files": [
+      "css/*.css",
+      "css/*.map",
+      "js/*.js",
+      "js/*.map",
+      "fonts/*.eot",
+      "fonts/*.svg",
+      "fonts/*.ttf",
+      "fonts/*.woff",
+      "fonts/*.woff2"
+    ]
+  }
+}

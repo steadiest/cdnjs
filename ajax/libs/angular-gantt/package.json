@@ -1,0 +1,32 @@
+{
+  "name": "angular-gantt",
+  "filename": "angular-gantt.min.js",
+  "version": "1.2.6",
+  "description": "Gantt chart component for AngularJS",
+  "author": "Marco Schweighauser",
+  "contributors": [
+    "Rémi Alvergnat"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-gantt/angular-gantt.git"
+  },
+  "homepage": "http://www.angular-gantt.com",
+  "bugs": "https://github.com/angular-gantt/angular-gantt/issues",
+  "keywords": [
+    "gantt",
+    "chart",
+    "angularjs"
+  ],
+  "main": "/assets/angular-gantt.js",
+  "directories.doc": "docs",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/angular-gantt/angular-gantt.git",
+    "basePath": "dist",
+    "files": [
+      "*"
+    ]
+  }
+}

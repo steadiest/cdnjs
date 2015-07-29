@@ -1,0 +1,35 @@
+{
+  "name": "holder",
+  "filename": "holder.min.js",
+  "version": "2.8.1",
+  "description": "Client-side image placeholders.",
+  "homepage": "http://imsky.github.io/holder/",
+  "keywords": [
+    "images",
+    "placeholders",
+    "client-side",
+    "canvas",
+    "generation",
+    "development"
+  ],
+  "maintainers": [
+    {
+      "name": "Ivan Malopinsky"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/imsky/holder.git"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/imsky/holder.git",
+    "basePath": "",
+    "files": [
+      "holder.js",
+      "holder.min.js"
+    ]
+  }
+}

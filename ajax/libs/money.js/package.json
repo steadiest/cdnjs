@@ -1,0 +1,34 @@
+{
+  "name": "money.js",
+  "filename": "money.min.js",
+  "version": "0.2.0",
+  "description": "money.js is a tiny (1kb) javascript currency conversion library, for web & nodeJS",
+  "homepage": "https://github.com/openexchangerates/money.js",
+  "keywords": [
+    "accounting",
+    "number",
+    "money",
+    "currency",
+    "exchange"
+  ],
+  "maintainers": [
+    {
+      "name": "josscrowcroft"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/openexchangerates/money.js"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/openexchangerates/money.js.git",
+    "basePath": "",
+    "files": [
+      "money.js",
+      "money.min.js"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "angular-formly-templates-bootstrap",
+  "version": "6.0.0",
+  "author": "Astrism <astrisms@gmail.com>",
+  "contributors": [
+    "Astrism <astrisms@gmail.com>",
+    "Kent C. Dodds <kent@doddsfamily.us>"
+  ],
+  "homepage": "http://formly-js.github.io/angular-formly-templates-bootstrap/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/formly-js/angular-formly-templates-bootstrap.git"
+  },
+  "main": "dist/angular-formly-templates-bootstrap.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/formly-js/angular-formly-templates-bootstrap/master/LICENSE"
+    }
+  ],
+  "description": "Angular-Formly plugin which outputs bootstrap compatible form fields.",
+  "peerDependencies": {
+    "angular": "^1.2.x || >= 1.4.0-beta.0 || >= 1.5.0-beta.0",
+    "angular-formly": "^4.0.5",
+    "api-check": "^6.0.10"
+  },
+  "npmName": "angular-formly-templates-bootstrap",
+  "npmFileMap": [
+    {
+      "basePath": "/dist",
+      "files": [
+        "*"
+      ]
+    }
+  ],
+  "filename": "angular-formly-templates-bootstrap.min.js"
+}

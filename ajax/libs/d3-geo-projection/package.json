@@ -1,0 +1,42 @@
+{
+  "name": "d3-geo-projection",
+  "filename": "d3.geo.projection.min.js",
+  "version": "0.2.15",
+  "description": "Extended geographic projections for D3.js.",
+  "keywords": [
+    "cartography",
+    "map projections",
+    "visualization"
+  ],
+  "homepage": "https://github.com/d3/d3-geo-projection",
+  "author": {
+    "name": "Mike Bostock",
+    "url": "http://bost.ocks.org/mike"
+  },
+  "contributors": [
+    {
+      "name": "Jason Davies",
+      "url": "http://jasondavies.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3/d3-geo-projection.git"
+  },
+  "npmName": "d3-geo-projection",
+  "npmFileMap": [
+    {
+      "basePath": "/",
+      "files": [
+        "d3.geo.projection.js",
+        "d3.geo.projection.min.js"
+      ]
+    }
+  ],
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/d3/d3-geo-projection/blob/master/LICENSE"
+    }
+  ]
+}

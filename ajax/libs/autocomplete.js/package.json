@@ -1,0 +1,30 @@
+{
+  "name": "autocomplete.js",
+  "description": "Fast and fully-featured autocomplete library",
+  "keywords": [
+    "autocomplete",
+    "typeahead"
+  ],
+  "homepage": "https://github.com/algolia/autocomplete.js",
+  "bugs": "https://github.com/algolia/autocomplete.js/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/algolia/autocomplete.js.git"
+  },
+  "dependencies": {
+    "jquery": ">= 1.7"
+  },
+  "version": "0.1.0",
+  "main": "index.js",
+  "npmName": "autocomplete.js",
+  "npmFileMap": [
+    {
+      "basePath": "/dist",
+      "files": [
+        "*/"
+      ]
+    }
+  ],
+  "filename": "autocomplete.jquery.min.js"
+}

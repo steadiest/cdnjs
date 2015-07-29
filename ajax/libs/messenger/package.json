@@ -1,0 +1,19 @@
+{
+  "name": "messenger",
+  "description": "Client-side growl-like notifications with actions and auto-retry.",
+  "filename": "js/messenger.min.js",
+  "version": "1.4.0",
+  "homepage": "http://github.hubspot.com/messenger",
+  "keywords": [
+    "client-side",
+    "notification",
+    "toast",
+    "ajax"
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "http://github.com/HubSpot/messenger"
+    }
+  ]
+}

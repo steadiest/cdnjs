@@ -1,0 +1,60 @@
+{
+  "name": "angular-ui-router",
+  "description": "State-based routing for AngularJS",
+  "version": "0.2.15",
+  "filename": "angular-ui-router.min.js",
+  "homepage": "http://angular-ui.github.com/",
+  "author": {
+    "name": "Karsten Sperling",
+    "url": "https://github.com/ksperling"
+  },
+  "contributors": [
+    {
+      "name": "Nate Abele",
+      "email": "nate@unionofrad.com",
+      "web": "https://github.com/nateabele"
+    },
+    {
+      "name": "Tim Kindberg",
+      "web": "https://github.com/timkindberg"
+    },
+    {
+      "name": "Karsten Sperling",
+      "web": "https://github.com/ksperling"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "AngularUI",
+      "web": "https://github.com/angular-ui?tab=members"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-ui/ui-router.git"
+  },
+  "bugs": "https://github.com/angular-ui/ui-router/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/angular-ui/ui-router/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {},
+  "npmName": "angular-ui-router",
+  "npmFileMap": [
+    {
+      "basePath": "/release/",
+      "files": [
+        "angular-ui-router.min.js",
+        "angular-ui-router.js"
+      ]
+    }
+  ],
+  "keywords": [
+    "angular",
+    "ui",
+    "angular-ui",
+    "ui-router"
+  ]
+}

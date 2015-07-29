@@ -1,0 +1,30 @@
+{
+  "title": "scrollpoints",
+  "author": "Ferdinand Torggler",
+  "name": "scrollpoints",
+  "filename": "scrollpoints.min.js",
+  "description": "Scroll callbacks for DOM Elements",
+  "version": "0.2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-diamond-dogs-group-oss/scrollpoints"
+  },
+  "main": "scrollpoints.js",
+  "dependencies": {},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/the-diamond-dogs-group-oss/scrollpoints/blob/master/LICENSE.MIT"
+    }
+  ],
+  "npmName": "scrollpoints",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "scrollpoints.min.js",
+        "scrollpoints.js"
+      ]
+    }
+  ]
+}

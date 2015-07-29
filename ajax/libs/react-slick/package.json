@@ -1,0 +1,53 @@
+{
+  "name": "react-slick",
+  "filename": "react-slick.min.js",
+  "version": "0.6.4",
+  "description": " React port of slick carousel",
+  "main": "index.jsx",
+  "author": "Kiran Abburi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akiran/react-slick"
+  },
+  "keywords": [
+    "slick",
+    "carousel",
+    "Image slider",
+    "orbit",
+    "slider",
+    "react-component"
+  ],
+  "dependencies": {
+    "json2mq": "^0.2.0",
+    "lodash": "^2.4.1",
+    "object-assign": "^2.0.0",
+    "react-responsive-mixin": "^0.3.1"
+  },
+  "peerDependencies": {
+    "react": "^0.12.*"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
+    ]
+  },
+  "npmName": "react-slick",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/akiran/react-slick/issues"
+  },
+  "homepage": "https://github.com/akiran/react-slick"
+}

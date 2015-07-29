@@ -1,0 +1,29 @@
+{
+  "name": "bootswatch",
+  "filename": "custom/bootstrap.min.css",
+  "version": "3.3.5",
+  "description": "Bootswatch is a collection of themes for Bootstrap.",
+  "author": "Thomas Park",
+  "homepage": "http://bootswatch.com/",
+  "keywords": [
+    "css"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomaspark/bootswatch.git"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "npmName": "bootswatch",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "fonts/*",
+        "*/*.css"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "wow",
+  "version": "1.1.2",
+  "filename": "wow.min.js",
+  "description": "Reveal CSS animation as you scroll down a page",
+  "keywords": [],
+  "homepage": "http://mynameismatthieu.com/WOW/",
+  "author": {
+    "name": "Matthieu Aussaguel",
+    "email": "matthieu.aussaguel@gmail.com",
+    "url": "http://mynameismatthieu.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthieua/WOW.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://matthieuaussaguel.mit-license.org/"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/matthieua/WOW.git",
+    "basePath": "dist/",
+    "files": [
+      "*"
+    ]
+  }
+}

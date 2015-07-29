@@ -1,0 +1,37 @@
+{
+  "name": "summernote",
+  "filename": "summernote.min.js",
+  "version": "0.6.13",
+  "description": "Meet the world's best WYSIWYG editor on bootstrap. Summernote support both bootstrap 3.0.x and 2.x.x.",
+  "homepage": "http://hackerwins.github.io/summernote/",
+  "keywords": [
+    "bootstrap",
+    "summernote",
+    "editor",
+    "WYSIWYG"
+  ],
+  "maintainers": [
+    {
+      "name": "Alan Hong",
+      "email": "susukang98@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/summernote/summernote.git"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/summernote/summernote.git",
+    "basePath": "dist",
+    "files": [
+      "*"
+    ]
+  },
+  "requiredFiles": [
+    "summernote-bs2.min.css",
+    "summernote-bs3.min.css"
+  ]
+}

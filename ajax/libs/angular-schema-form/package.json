@@ -1,0 +1,46 @@
+{
+  "name": "angular-schema-form",
+  "version": "0.8.4",
+  "description": "Create complex forms from a JSON schema with angular.",
+  "repository": "Textalk/angular-schema-form",
+  "main": "dist/schema-form.min.js",
+  "homepage": "http://textalk.github.io/angular-schema-form/",
+  "author": "Textalk",
+  "contributors": [
+    "David Jensen <david.lgj@gmail.com> (https://github.com/davidlgj)",
+    "Denis Dervisevic <denis@dervisevic.se> (https://github.com/Dervisevic)",
+    "Cameron Edwards (https://github.com/cameronprattedwards)",
+    "Mike Marcacci (https://github.com/mike-marcacci)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": ">= 1.2",
+    "tv4": "~1.0.15",
+    "angular-sanitize": ">= 1.2",
+    "objectpath": "~1.1.0"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "form",
+    "json",
+    "json-schema",
+    "schema"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/Textalk/angular-schema-form/master/LICENSE"
+    }
+  ],
+  "npmName": "angular-schema-form",
+  "npmFileMap": [
+    {
+      "basePath": "/dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
+  "filename": "bootstrap-decorator.min.js"
+}

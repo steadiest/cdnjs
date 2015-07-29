@@ -1,0 +1,15 @@
+{
+  "name": "html5-history-api",
+  "filename": "history.min.js",
+  "version": "4.2.2",
+  "description": "HTML5 History API provides an emulation of HTML5 History API for older browsers",
+  "homepage": "https://github.com/devote/HTML5-History-API",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/devote/HTML5-History-API.git",
+    "basePath": "",
+    "files": [
+      "history*.js"
+    ]
+  }
+}

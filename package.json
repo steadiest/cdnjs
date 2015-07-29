@@ -1,0 +1,40 @@
+{
+  "author": "Ryan Kirkman (http://ryankirkman.com)",
+  "name": "cdnjs",
+  "description": "Our goal is to operate this CDN in a peer reviewed fashion.",
+  "version": "1.0.0",
+  "homepage": "http://www.cdnjs.com/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cdnjs/cdnjs.git"
+  },
+  "scripts": {
+    "build": "./build/build.js",
+    "test": "vows"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "~1.4",
+    "clean-css": "~3.3",
+    "colors": "~1.1",
+    "execSync": "~1.0",
+    "fs-extra": "~0.22.1",
+    "glob": "~5",
+    "is-there": "4.0.0",
+    "lodash": "^3.9",
+    "rss": "~1.1",
+    "superagent": "^1.2.0",
+    "tarball-extract": "~0.0",
+    "uglify-js": "~2.4",
+    "underscore": "~1"
+  },
+  "devDependencies": {
+    "jslint": ">=0.8.1",
+    "JSV": "~4.0.2",
+    "vows-si": "~0.7.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "^0.10"
+  }
+}

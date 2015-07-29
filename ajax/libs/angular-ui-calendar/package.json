@@ -1,0 +1,14 @@
+{
+  "name": "angular-ui-calendar",
+  "version": "1.0.0",
+  "description": "A complete AngularJS directive for the Arshaw FullCalendar.",
+  "author": "https://github.com/angular-ui/ui-calendar/graphs/contributors",
+  "license": "MIT",
+  "homepage": "http://angular-ui.github.com",
+  "filename": "calendar.min.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/angular-ui/ui-calendar.git"
+  }
+}

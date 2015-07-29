@@ -1,0 +1,47 @@
+{
+  "name": "react-modal",
+  "version": "0.3.0",
+  "description": "Accessible modal dialog component for React.JS",
+  "main": "./lib/index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rackt/react-modal.git"
+  },
+  "homepage": "https://github.com/rackt/react-modal",
+  "bugs": "https://github.com/rackt/react-modal/issues",
+  "directories": {
+    "example": "examples"
+  },
+  "authors": [
+    "Ryan Florence"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=0.12.0",
+    "classnames": "^1.2.0"
+  },
+  "tags": [
+    "react",
+    "modal",
+    "dialog"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "modal",
+    "dialog"
+  ],
+  "browserify-shim": {
+    "react": "global:React"
+  },
+  "npmName": "react-modal",
+  "npmFileMap": [
+    {
+      "basePath": "/dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
+  "filename": "react-modal.min.js"
+}

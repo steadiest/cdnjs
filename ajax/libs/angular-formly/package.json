@@ -1,0 +1,39 @@
+{
+  "name": "angular-formly",
+  "filename": "formly.min.js",
+  "version": "6.19.0",
+  "description": "AngularJS directive which takes JSON representing a form and renders to HTML",
+  "main": "formly.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/formly-js/angular-formly.git"
+  },
+  "homepage": "http://formly-js.github.io/angular-formly/#!/",
+  "keywords": [
+    "angular",
+    "formly"
+  ],
+  "maintainers": [
+    {
+      "name": "Astrism",
+      "email": "astrisms@gmail.com",
+      "web": "http://formly-js.github.io/angular-formly/"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/formly-js/angular-formly/master/LICENSE"
+    }
+  ],
+  "npmName": "angular-formly",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js",
+        "*.map"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "jquery-once",
+  "description": "Act on jQuery elements only once.",
+  "version": "2.0.2",
+  "keywords": [
+    "jquery",
+    "jquery-plugin"
+  ],
+  "homepage": "https://github.com/RobLoach/jquery-once",
+  "author": "Rob Loach (http://github.com/RobLoach)",
+  "npmName": "jquery-once",
+  "npmFileMap": [
+    {
+      "basePath": "/",
+      "files": [
+        "jquery.once.js",
+        "jquery.once.min.js",
+        "jquery.once.min.js.map"
+      ]
+    }
+  ],
+  "filename": "jquery.once.min.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/RobLoach/jquery-once.git"
+  },
+  "licenses": [
+    {
+      "type": "GPL-2.0",
+      "url": "http://opensource.org/licenses/gpl-2.0.php"
+    },
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ]
+}

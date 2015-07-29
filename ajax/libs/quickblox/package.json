@@ -1,0 +1,43 @@
+{
+  "name": "quickblox",
+  "filename": "quickblox.min.js",
+  "version": "1.9.3",
+  "description": "JavaScript SDK of QuickBlox cloud backend platform.",
+  "homepage": "http://quickblox.com/developers/Javascript",
+  "dependencies": {
+    "jquery": ">=2.0.0"
+  },
+  "keywords": [
+    "quickblox",
+    "backend",
+    "cloud",
+    "db"
+  ],
+  "tags": [
+    "quickblox",
+    "cloud",
+    "backend",
+    "db"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/QuickBlox/quickblox-javascript-sdk/blob/master/LICENSE"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/QuickBlox/quickblox-javascript-sdk.git"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/QuickBlox/quickblox-javascript-sdk.git",
+    "basePath": "",
+    "files": [
+      "quickblox.min.js",
+      "quickblox.js"
+    ]
+  }
+}

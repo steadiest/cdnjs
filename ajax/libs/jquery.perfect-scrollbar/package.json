@@ -1,0 +1,36 @@
+{
+  "name": "jquery.perfect-scrollbar",
+  "filename": "js/min/perfect-scrollbar.jquery.min.js",
+  "version": "0.6.4",
+  "description": "minimalistic but perfect custom scrollbar plugin",
+  "homepage": "http://noraesae.github.io/perfect-scrollbar",
+  "keywords": [
+    "jquery-plugin",
+    "frontend",
+    "scroll",
+    "scrollbar"
+  ],
+  "maintainers": [
+    {
+      "name": "Hyunje Alex Jun",
+      "email": "me@noraesae.net",
+      "web": "http://noraesae.net"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/noraesae/perfect-scrollbar"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/noraesae/perfect-scrollbar-bower.git",
+    "basePath": "",
+    "files": [
+      "js/min/*.js",
+      "js/*.js",
+      "css/*.css"
+    ]
+  }
+}

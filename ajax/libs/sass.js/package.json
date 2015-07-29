@@ -1,0 +1,31 @@
+{
+  "name": "sass.js",
+  "filename": "sass.min.js",
+  "version": "0.9.2",
+  "description": "Sass parser in JavaScript",
+  "homepage": "https://github.com/medialize/sass.js",
+  "keywords": [
+    "css",
+    "css3"
+  ],
+  "maintainers": [
+    {
+      "name": "Rodney Rehm",
+      "web": "http://rodneyrehm.de/"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/medialize/sass.js"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/medialize/sass.js.git",
+    "basePath": "dist",
+    "files": [
+      "*.js"
+    ]
+  }
+}

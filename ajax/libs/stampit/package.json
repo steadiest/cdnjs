@@ -1,0 +1,41 @@
+{
+  "name": "stampit",
+  "version": "2.1.0",
+  "description": "Create objects from reusable, composable behaviors.",
+  "author": {
+    "name": "Eric Elliott",
+    "url": "https://ericelliottjs.com"
+  },
+  "main": "./dist/stampit.js",
+  "keywords": [
+    "object",
+    "prototype",
+    "object oriented",
+    "browser",
+    "inheritance",
+    "oo",
+    "node",
+    "factory",
+    "class"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stampit-org/stampit.git"
+  },
+  "dependencies": {
+    "lodash": "^3.9.1",
+    "supermixer": "^1.0.2"
+  },
+  "license": "MIT",
+  "npmName": "stampit",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "stampit.js",
+        "stampit.min.js"
+      ]
+    }
+  ],
+  "filename": "stampit.min.js"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "overthrow",
+  "filename": "overthrow.min.js",
+  "version": "0.7.0",
+  "description": "A tiny, no-frills, framework-independent, targeted overflow: auto polyfill for use in responsive design.",
+  "author": "http://filamentgroup.com",
+  "homepage": "http://filamentgroup.github.io/Overthrow",
+  "keywords": [
+    "overthrow"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/filamentgroup/Overthrow/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/filamentgroup/Overthrow.git"
+  }
+}

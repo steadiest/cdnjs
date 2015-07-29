@@ -1,0 +1,18 @@
+{
+  "name": "hogan.js",
+  "filename": "hogan.min.js",
+  "version": "3.0.2",
+  "description": "A mustache compiler.",
+  "homepage": "http://twitter.github.com/hogan.js/",
+  "keywords": [
+    "mustache",
+    "template"
+  ],
+  "author": "Twitter Inc.",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/twitter/hogan.js.git"
+    }
+  ]
+}

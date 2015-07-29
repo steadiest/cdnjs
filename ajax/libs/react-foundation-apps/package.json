@@ -1,0 +1,62 @@
+{
+  "name": "react-foundation-apps",
+  "filename": "react-foundation-apps.min.js",
+  "version": "0.6.1",
+  "description": "'React port of foundation-apps'",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akiran/react-foundation-apps"
+  },
+  "keywords": [
+    "react",
+    "foundation-apps",
+    "modal",
+    "panel",
+    "accordion",
+    "tabs",
+    "offcanvas",
+    "interchange",
+    "notification",
+    "actionsheet",
+    "react-component"
+  ],
+  "author": {
+    "name": "Kiran Abburi"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akiran/react-foundation-apps/issues"
+  },
+  "homepage": "https://github.com/akiran/react-foundation-apps",
+  "peerDependencies": {
+    "react": "*",
+    "react-responsive-mixin": "*",
+    "pubsub-js": "^1.5.x",
+    "object-assign": "^2.0.*"
+  },
+  "dependencies": {
+    "object-assign": "^2.0.0",
+    "pubsub-js": "^1.5.0",
+    "tether": "^0.6.5"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
+    ]
+  },
+  "npmName": "react-foundation-apps",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ]
+}
