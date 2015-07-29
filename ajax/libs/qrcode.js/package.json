@@ -1,5 +1,5 @@
 {
-  "name": "qrcodejs",
+  "name": "qrcode.js",
   "version": "0.0.1",
   "description": "Cross-browser QRCode generator for javascript",
   "filename": "qrcode.js",
