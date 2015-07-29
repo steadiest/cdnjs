@@ -2,7 +2,7 @@
   "name": "qrcodejs",
   "version": "0.0.1",
   "description": "Cross-browser QRCode generator for javascript",
-  "main": "qrcode.js",
+  "filename": "qrcode.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/davidshimjs/qrcodejs.git"
